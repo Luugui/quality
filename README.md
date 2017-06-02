@@ -1,2 +1,2 @@
-# SCRIPTS Quality
+# SCRIPT
 ### Pasta de scripts de automação

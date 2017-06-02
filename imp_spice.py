@@ -44,12 +44,35 @@ try:
 				"templates": [{
 					
 					"templateid": 10081
+					"templateid": 10104
 				}]
 				
 			})
 			print("---> HOST {0} adicionado!".format(host))
 		else:
-			print("Linux")
+			host_create = zapi.host.create({
+				"host": host,
+				"status": 0,
+				"interfaces": [{
+					"type": 1,
+					"main": 1,
+					"useip": 1,
+					"ip": ip,
+					"dns": "",
+					"port": 10050
+					
+				}],
+				"groups":[{
+					
+					"groupid": 5
+				}],
+				"templates": [{
+					
+					"templateid": 10001
+					"templateid": 10104
+				}]
+				
+			})
 	
 except csv.Error:
 	print("Error!")

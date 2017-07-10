@@ -1,5 +1,5 @@
 from pyzabbix import ZabbixAPI
-import csv
+
 
 zapi = ZabbixAPI("http://IP-ZABBIX/zabbix")
 zapi.login("USUARIO","SENHA")

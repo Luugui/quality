@@ -1,8 +1,8 @@
 from pyzabbix import ZabbixAPI
 import csv
 
-zapi = ZabbixAPI("http://monitor.saveti.com.br/zabbix")
-zapi.login("central.fototica","save@2016")
+zapi = ZabbixAPI("http://IP-ZABBIX/zabbix")
+zapi.login("USUARIO","SENHA")
 print("Conectado com sucesso!")
 
 r = open("ATIVOS.txt", "w")

@@ -6,7 +6,7 @@
 
 ### Monitoria de agentes e workflows do AutomationEdge
 
-1- check_agent.py --> Faz discovery dos agentes e monitora o status de execução 
-2- check_workflows.py --> Faz o discovery dos workflows
-3- check_workflows_failure --> Checa os workflows que tiveram falha na execução
+1- check_agent.py --> Faz discovery dos agentes e monitora o status de execução  
+2- check_workflows.py --> Faz o discovery dos workflows  
+3- check_workflows_failure --> Checa os workflows que tiveram falha na execução  
 
